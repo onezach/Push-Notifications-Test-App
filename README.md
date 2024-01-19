@@ -9,6 +9,7 @@ Users are then prompted to complete two sets of testing: one round with 5 defaul
 - Duration of Visibility On-Screen (4sec/12sec)
 - Subjective Formality of Font: (informal/formal)
 - Background Color (red/yellow)
+
 Each of the 5 numbers the user inputs initially corresponds to 1 custom push notification that they receive, with each bit in the 5-bit binary representation of that number corresponding to which of the variables are toggled on (e.g. 25 --> 11001 --> icon, vibration, 4 seconds, informal font, yellow).
 ## Evaluation
 We ultimately measured the accuracy of each user's text-copying and push notification information retention, as well as collected qualitative preferences.
